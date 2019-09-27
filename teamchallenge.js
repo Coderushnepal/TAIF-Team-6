@@ -20,7 +20,7 @@ for (i = 0; i < people.length; i++) {
 }
 
 // adding new developer
-people.push({ name: 'Shristi', role: 'developer' })
+people.push({ name: 'Shristi', role: 'developer', founder: false})
 
 // Displaying all the members after assigning new CTO and adding a new developer
 for (i = 0; i < people.length; i++) {
